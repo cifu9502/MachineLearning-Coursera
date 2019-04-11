@@ -14,6 +14,7 @@ J = 0;
 %               You should set J to the cost.
 
 %m = size(X,1); % number of training examples
+
 predictions = X*theta; % predictions of hypothesis on all m examples
 
 sqrErrors = (predictions -y).^2;
